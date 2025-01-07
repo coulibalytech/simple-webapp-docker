@@ -1,0 +1,48 @@
+ting /app...
+
+Tested 6 dependencies for known issues, found 11 issues, 11 vulnerable paths.
+
+
+Issues to fix by upgrading dependencies:
+
+  Upgrade flask@1.1.4 to flask@2.2.5 to fix
+  ✗ Information Exposure [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-FLASK-5490129] in flask@1.1.4
+    introduced by flask@1.1.4
+
+  Pin jinja2@2.11.3 to jinja2@3.1.5 to fix
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-JINJA2-6150717] in jinja2@2.11.3
+    introduced by flask@1.1.4 > jinja2@2.11.3
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-JINJA2-6809379] in jinja2@2.11.3
+    introduced by flask@1.1.4 > jinja2@2.11.3
+  ✗ Template Injection (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-JINJA2-8548181] in jinja2@2.11.3
+    introduced by flask@1.1.4 > jinja2@2.11.3
+  ✗ Improper Neutralization (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-JINJA2-8548987] in jinja2@2.11.3
+    introduced by flask@1.1.4 > jinja2@2.11.3
+
+  Pin werkzeug@1.0.1 to werkzeug@3.0.6 to fix
+  ✗ Access Restriction Bypass [Low Severity][https://security.snyk.io/vuln/SNYK-PYTHON-WERKZEUG-3319935] in werkzeug@1.0.1
+    introduced by flask@1.1.4 > werkzeug@1.0.1
+  ✗ Inefficient Algorithmic Complexity [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-WERKZEUG-6035177] in werkzeug@1.0.1
+    introduced by flask@1.1.4 > werkzeug@1.0.1
+  ✗ Directory Traversal [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-WERKZEUG-8309091] in werkzeug@1.0.1
+    introduced by flask@1.1.4 > werkzeug@1.0.1
+  ✗ Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-WERKZEUG-8309092] in werkzeug@1.0.1
+    introduced by flask@1.1.4 > werkzeug@1.0.1
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-WERKZEUG-3319936] in werkzeug@1.0.1
+    introduced by flask@1.1.4 > werkzeug@1.0.1
+  ✗ Remote Code Execution (RCE) [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-WERKZEUG-6808933] in werkzeug@1.0.1
+    introduced by flask@1.1.4 > werkzeug@1.0.1
+
+
+
+Organization:      coulibalytech
+Package manager:   pip
+Target file:       requirements.txt
+Project name:      app
+Open source:       no
+Project path:      /app
+Licenses:          enabled
+
+Tip: Try `snyk fix` to address these issues.`snyk fix` is a new CLI command in that aims to automatically apply the recommended updates for supported ecosystems.
+See documentation on how to enable this beta feature: https://docs.snyk.io/snyk-cli/fix-vulnerabilities-from-the-cli/automatic-remediation-with-snyk-fix#enabling-snyk-fix
+
