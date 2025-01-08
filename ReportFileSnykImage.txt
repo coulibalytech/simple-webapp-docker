@@ -1,0 +1,964 @@
+Testing simple-webapp-docker...
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: CVE-2023-26604
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-SYSTEMD-3339228
+  Introduced through: systemd/libsystemd0@237-3ubuntu10.57, apt/libapt-pkg5.0@1.6.17, procps/libprocps6@2:3.3.12-3ubuntu1.2, util-linux/bsdutils@1:2.31.1-0.4ubuntu3.7, python-secretstorage@2.3.1-2, util-linux/mount@2.31.1-0.4ubuntu3.7, systemd/libudev1@237-3ubuntu10.57
+  From: systemd/libsystemd0@237-3ubuntu10.57
+  From: apt/libapt-pkg5.0@1.6.17 > systemd/libsystemd0@237-3ubuntu10.57
+  From: procps/libprocps6@2:3.3.12-3ubuntu1.2 > systemd/libsystemd0@237-3ubuntu10.57
+  and 7 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Time-of-check Time-of-use (TOCTOU)
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-SHADOW-306209
+  Introduced through: shadow/passwd@1:4.5-1ubuntu2.5, apt@1.6.17, shadow/login@1:4.5-1ubuntu2.5
+  From: shadow/passwd@1:4.5-1ubuntu2.5
+  From: apt@1.6.17 > adduser@3.116ubuntu1 > shadow/passwd@1:4.5-1ubuntu2.5
+  From: shadow/login@1:4.5-1ubuntu2.5
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Arbitrary Code Injection
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-SHADOW-5425689
+  Introduced through: shadow/passwd@1:4.5-1ubuntu2.5, apt@1.6.17, shadow/login@1:4.5-1ubuntu2.5
+  From: shadow/passwd@1:4.5-1ubuntu2.5
+  From: apt@1.6.17 > adduser@3.116ubuntu1 > shadow/passwd@1:4.5-1ubuntu2.5
+  From: shadow/login@1:4.5-1ubuntu2.5
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Improper Authentication
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-SHADOW-5879189
+  Introduced through: shadow/passwd@1:4.5-1ubuntu2.5, apt@1.6.17, shadow/login@1:4.5-1ubuntu2.5
+  From: shadow/passwd@1:4.5-1ubuntu2.5
+  From: apt@1.6.17 > adduser@3.116ubuntu1 > shadow/passwd@1:4.5-1ubuntu2.5
+  From: shadow/login@1:4.5-1ubuntu2.5
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 1:4.5-1ubuntu2.5+esm1
+
+✗ Low severity vulnerability found in python2.7/libpython2.7-dev
+  Description: Inefficient Regular Expression Complexity
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PYTHON27-7830365
+  Introduced through: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11, python-defaults/libpython-all-dev@2.7.15~rc1-1, python-defaults/libpython-dev@2.7.15~rc1-1, python-defaults/python-dev@2.7.15~rc1-1, python-defaults/python@2.7.15~rc1-1, python2.7/libpython2.7@2.7.17-1~18.04ubuntu1.11, python-defaults/python-all-dev@2.7.15~rc1-1, python2.7/python2.7-dev@2.7.17-1~18.04ubuntu1.11, python2.7/libpython2.7-minimal@2.7.17-1~18.04ubuntu1.11
+  From: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-all-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  and 17 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.7.17-1~18.04ubuntu1.13+esm5
+
+✗ Low severity vulnerability found in python-pip/python-pip-whl
+  Description: CVE-2021-3572
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PYTHONPIP-1304486
+  Introduced through: python-pip@9.0.1-2.3~ubuntu1.18.04.8
+  From: python-pip@9.0.1-2.3~ubuntu1.18.04.8 > python-pip/python-pip-whl@9.0.1-2.3~ubuntu1.18.04.8
+  From: python-pip@9.0.1-2.3~ubuntu1.18.04.8
+  Image layer: 'apt-get install -y python python-pip'
+
+✗ Low severity vulnerability found in python-cryptography
+  Description: Improper Check for Unusual or Exceptional Conditions
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PYTHONCRYPTOGRAPHY-3319564
+  Introduced through: python-cryptography@2.1.4-1ubuntu1.4, python-secretstorage@2.3.1-2
+  From: python-cryptography@2.1.4-1ubuntu1.4
+  From: python-secretstorage@2.3.1-2 > python-cryptography@2.1.4-1ubuntu1.4
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in procps/libprocps6
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PROCPS-5816667
+  Introduced through: procps/libprocps6@2:3.3.12-3ubuntu1.2, procps@2:3.3.12-3ubuntu1.2
+  From: procps/libprocps6@2:3.3.12-3ubuntu1.2
+  From: procps@2:3.3.12-3ubuntu1.2 > procps/libprocps6@2:3.3.12-3ubuntu1.2
+  From: procps@2:3.3.12-3ubuntu1.2
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2:3.3.12-3ubuntu1.2+esm1
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Uncontrolled Recursion
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PCRE3-452543
+  Introduced through: pcre3/libpcre3@2:8.39-9ubuntu0.1
+  From: pcre3/libpcre3@2:8.39-9ubuntu0.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in patch
+  Description: Release of Invalid Pointer or Reference
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PATCH-2325781
+  Introduced through: patch@2.7.6-2ubuntu1.1, build-essential@12.4ubuntu1
+  From: patch@2.7.6-2ubuntu1.1
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > patch@2.7.6-2ubuntu1.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in patch
+  Description: Double Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PATCH-303858
+  Introduced through: patch@2.7.6-2ubuntu1.1, build-essential@12.4ubuntu1
+  From: patch@2.7.6-2ubuntu1.1
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > patch@2.7.6-2ubuntu1.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Inefficient Regular Expression Complexity
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-OPENSSL-5786285
+  Introduced through: cyrus-sasl2/libsasl2-modules@2.1.27~101-g0780600+dfsg-3ubuntu2.4, python-secretstorage@2.3.1-2, python-defaults/python@2.7.15~rc1-1, python-pip@9.0.1-2.3~ubuntu1.18.04.8
+  From: cyrus-sasl2/libsasl2-modules@2.1.27~101-g0780600+dfsg-3ubuntu2.4 > openssl/libssl1.1@1.1.1-1ubuntu2.1~18.04.23
+  From: python-secretstorage@2.3.1-2 > python-cryptography@2.1.4-1ubuntu1.4 > openssl/libssl1.1@1.1.1-1ubuntu2.1~18.04.23
+  From: python-defaults/python@2.7.15~rc1-1 > python2.7@2.7.17-1~18.04ubuntu1.11 > python2.7/libpython2.7-stdlib@2.7.17-1~18.04ubuntu1.11 > openssl/libssl1.1@1.1.1-1ubuntu2.1~18.04.23
+  and 2 more...
+  Image layer: 'apt-get install -y python python-pip'
+  Fixed in: 1.1.1-1ubuntu2.1~18.04.23+esm3
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Excessive Iteration
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-OPENSSL-5811833
+  Introduced through: cyrus-sasl2/libsasl2-modules@2.1.27~101-g0780600+dfsg-3ubuntu2.4, python-secretstorage@2.3.1-2, python-defaults/python@2.7.15~rc1-1, python-pip@9.0.1-2.3~ubuntu1.18.04.8
+  From: cyrus-sasl2/libsasl2-modules@2.1.27~101-g0780600+dfsg-3ubuntu2.4 > openssl/libssl1.1@1.1.1-1ubuntu2.1~18.04.23
+  From: python-secretstorage@2.3.1-2 > python-cryptography@2.1.4-1ubuntu1.4 > openssl/libssl1.1@1.1.1-1ubuntu2.1~18.04.23
+  From: python-defaults/python@2.7.15~rc1-1 > python2.7@2.7.17-1~18.04ubuntu1.11 > python2.7/libpython2.7-stdlib@2.7.17-1~18.04ubuntu1.11 > openssl/libssl1.1@1.1.1-1ubuntu2.1~18.04.23
+  and 2 more...
+  Image layer: 'apt-get install -y python python-pip'
+  Fixed in: 1.1.1-1ubuntu2.1~18.04.23+esm3
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Improper Check for Unusual or Exceptional Conditions
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-OPENSSL-6050187
+  Introduced through: cyrus-sasl2/libsasl2-modules@2.1.27~101-g0780600+dfsg-3ubuntu2.4, python-secretstorage@2.3.1-2, python-defaults/python@2.7.15~rc1-1, python-pip@9.0.1-2.3~ubuntu1.18.04.8
+  From: cyrus-sasl2/libsasl2-modules@2.1.27~101-g0780600+dfsg-3ubuntu2.4 > openssl/libssl1.1@1.1.1-1ubuntu2.1~18.04.23
+  From: python-secretstorage@2.3.1-2 > python-cryptography@2.1.4-1ubuntu1.4 > openssl/libssl1.1@1.1.1-1ubuntu2.1~18.04.23
+  From: python-defaults/python@2.7.15~rc1-1 > python2.7@2.7.17-1~18.04ubuntu1.11 > python2.7/libpython2.7-stdlib@2.7.17-1~18.04ubuntu1.11 > openssl/libssl1.1@1.1.1-1ubuntu2.1~18.04.23
+  and 2 more...
+  Image layer: 'apt-get install -y python python-pip'
+  Fixed in: 1.1.1-1ubuntu2.1~18.04.23+esm4
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: CVE-2024-0727
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-OPENSSL-6191322
+  Introduced through: cyrus-sasl2/libsasl2-modules@2.1.27~101-g0780600+dfsg-3ubuntu2.4, python-secretstorage@2.3.1-2, python-defaults/python@2.7.15~rc1-1, python-pip@9.0.1-2.3~ubuntu1.18.04.8
+  From: cyrus-sasl2/libsasl2-modules@2.1.27~101-g0780600+dfsg-3ubuntu2.4 > openssl/libssl1.1@1.1.1-1ubuntu2.1~18.04.23
+  From: python-secretstorage@2.3.1-2 > python-cryptography@2.1.4-1ubuntu1.4 > openssl/libssl1.1@1.1.1-1ubuntu2.1~18.04.23
+  From: python-defaults/python@2.7.15~rc1-1 > python2.7@2.7.17-1~18.04ubuntu1.11 > python2.7/libpython2.7-stdlib@2.7.17-1~18.04ubuntu1.11 > openssl/libssl1.1@1.1.1-1ubuntu2.1~18.04.23
+  and 2 more...
+  Image layer: 'apt-get install -y python python-pip'
+  Fixed in: 1.1.1-1ubuntu2.1~18.04.23+esm4
+
+✗ Low severity vulnerability found in openldap/libldap-common
+  Description: NULL Pointer Dereference
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-OPENLDAP-5661786
+  Introduced through: openldap/libldap-common@2.4.45+dfsg-1ubuntu1.11, gnupg2/gnupg@2.2.4-1ubuntu1.6, openldap/libldap-2.4-2@2.4.45+dfsg-1ubuntu1.11
+  From: openldap/libldap-common@2.4.45+dfsg-1ubuntu1.11
+  From: gnupg2/gnupg@2.2.4-1ubuntu1.6 > gnupg2/dirmngr@2.2.4-1ubuntu1.6 > openldap/libldap-2.4-2@2.4.45+dfsg-1ubuntu1.11 > openldap/libldap-common@2.4.45+dfsg-1ubuntu1.11
+  From: openldap/libldap-2.4-2@2.4.45+dfsg-1ubuntu1.11
+  and 1 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.4.45+dfsg-1ubuntu1.11+esm1
+
+✗ Low severity vulnerability found in ncurses/libncurses5
+  Description: CVE-2023-50495
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-NCURSES-6123869
+  Introduced through: ncurses/libncurses5@6.1-1ubuntu1.18.04.1, procps@2:3.3.12-3ubuntu1.2, ncurses/libncursesw5@6.1-1ubuntu1.18.04.1, ncurses/libtinfo5@6.1-1ubuntu1.18.04.1, ncurses/ncurses-base@6.1-1ubuntu1.18.04.1, ncurses/ncurses-bin@6.1-1ubuntu1.18.04.1
+  From: ncurses/libncurses5@6.1-1ubuntu1.18.04.1
+  From: procps@2:3.3.12-3ubuntu1.2 > ncurses/libncurses5@6.1-1ubuntu1.18.04.1
+  From: ncurses/libncursesw5@6.1-1ubuntu1.18.04.1
+  and 3 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 6.1-1ubuntu1.18.04.1+esm2
+
+✗ Low severity vulnerability found in libgcrypt20
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-LIBGCRYPT20-6411455
+  Introduced through: libgcrypt20@1.8.1-4ubuntu1.3, gnupg2/gpgv@2.2.4-1ubuntu1.6, gnupg2/gpgconf@2.2.4-1ubuntu1.6, apt/libapt-pkg5.0@1.6.17, gnupg2/gnupg@2.2.4-1ubuntu1.6
+  From: libgcrypt20@1.8.1-4ubuntu1.3
+  From: gnupg2/gpgv@2.2.4-1ubuntu1.6 > libgcrypt20@1.8.1-4ubuntu1.3
+  From: gnupg2/gpgconf@2.2.4-1ubuntu1.6 > libgcrypt20@1.8.1-4ubuntu1.3
+  and 8 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in gnutls28/libgnutls30
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GNUTLS28-340583
+  Introduced through: gnutls28/libgnutls30@3.5.18-1ubuntu1.6, apt@1.6.17, gnupg2/gnupg@2.2.4-1ubuntu1.6
+  From: gnutls28/libgnutls30@3.5.18-1ubuntu1.6
+  From: apt@1.6.17 > gnutls28/libgnutls30@3.5.18-1ubuntu1.6
+  From: gnupg2/gnupg@2.2.4-1ubuntu1.6 > gnupg2/dirmngr@2.2.4-1ubuntu1.6 > gnutls28/libgnutls30@3.5.18-1ubuntu1.6
+  and 1 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in gnupg2/gpgv
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GNUPG2-3035411
+  Introduced through: gnupg2/gpgv@2.2.4-1ubuntu1.6, apt@1.6.17, gnupg2/gnupg@2.2.4-1ubuntu1.6, gnupg2/dirmngr@2.2.4-1ubuntu1.6, gnupg2/gpgconf@2.2.4-1ubuntu1.6, gnupg2/gnupg-l10n@2.2.4-1ubuntu1.6, gnupg2/gnupg-utils@2.2.4-1ubuntu1.6, gnupg2/gpg@2.2.4-1ubuntu1.6, gnupg2/gpg-agent@2.2.4-1ubuntu1.6, gnupg2/gpg-wks-client@2.2.4-1ubuntu1.6, gnupg2/gpg-wks-server@2.2.4-1ubuntu1.6, gnupg2/gpgsm@2.2.4-1ubuntu1.6
+  From: gnupg2/gpgv@2.2.4-1ubuntu1.6
+  From: apt@1.6.17 > gnupg2/gpgv@2.2.4-1ubuntu1.6
+  From: gnupg2/gnupg@2.2.4-1ubuntu1.6 > gnupg2/gpgv@2.2.4-1ubuntu1.6
+  and 27 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIBC-1297556
+  Introduced through: glibc/libc6-dev@2.27-3ubuntu1.6, build-essential@12.4ubuntu1, python-defaults/libpython-dev@2.7.15~rc1-1, glibc/libc-bin@2.27-3ubuntu1.6, glibc/libc-dev-bin@2.27-3ubuntu1.6, glibc/libc6@2.27-3ubuntu1.6
+  From: glibc/libc6-dev@2.27-3ubuntu1.6
+  From: build-essential@12.4ubuntu1 > glibc/libc6-dev@2.27-3ubuntu1.6
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11 > expat/libexpat1-dev@2.2.5-3ubuntu0.9 > glibc/libc6-dev@2.27-3ubuntu1.6
+  and 5 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIBC-2415107
+  Introduced through: glibc/libc6-dev@2.27-3ubuntu1.6, build-essential@12.4ubuntu1, python-defaults/libpython-dev@2.7.15~rc1-1, glibc/libc-bin@2.27-3ubuntu1.6, glibc/libc-dev-bin@2.27-3ubuntu1.6, glibc/libc6@2.27-3ubuntu1.6
+  From: glibc/libc6-dev@2.27-3ubuntu1.6
+  From: build-essential@12.4ubuntu1 > glibc/libc6-dev@2.27-3ubuntu1.6
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11 > expat/libexpat1-dev@2.2.5-3ubuntu0.9 > glibc/libc6-dev@2.27-3ubuntu1.6
+  and 5 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Improper Data Handling
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIBC-345677
+  Introduced through: glibc/libc6-dev@2.27-3ubuntu1.6, build-essential@12.4ubuntu1, python-defaults/libpython-dev@2.7.15~rc1-1, glibc/libc-bin@2.27-3ubuntu1.6, glibc/libc-dev-bin@2.27-3ubuntu1.6, glibc/libc6@2.27-3ubuntu1.6
+  From: glibc/libc6-dev@2.27-3ubuntu1.6
+  From: build-essential@12.4ubuntu1 > glibc/libc6-dev@2.27-3ubuntu1.6
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11 > expat/libexpat1-dev@2.2.5-3ubuntu0.9 > glibc/libc6-dev@2.27-3ubuntu1.6
+  and 5 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Improper Data Handling
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIBC-356503
+  Introduced through: glibc/libc6-dev@2.27-3ubuntu1.6, build-essential@12.4ubuntu1, python-defaults/libpython-dev@2.7.15~rc1-1, glibc/libc-bin@2.27-3ubuntu1.6, glibc/libc-dev-bin@2.27-3ubuntu1.6, glibc/libc6@2.27-3ubuntu1.6
+  From: glibc/libc6-dev@2.27-3ubuntu1.6
+  From: build-essential@12.4ubuntu1 > glibc/libc6-dev@2.27-3ubuntu1.6
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11 > expat/libexpat1-dev@2.2.5-3ubuntu0.9 > glibc/libc6-dev@2.27-3ubuntu1.6
+  and 5 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIBC-5901438
+  Introduced through: glibc/libc6-dev@2.27-3ubuntu1.6, build-essential@12.4ubuntu1, python-defaults/libpython-dev@2.7.15~rc1-1, glibc/libc-bin@2.27-3ubuntu1.6, glibc/libc-dev-bin@2.27-3ubuntu1.6, glibc/libc6@2.27-3ubuntu1.6
+  From: glibc/libc6-dev@2.27-3ubuntu1.6
+  From: build-essential@12.4ubuntu1 > glibc/libc6-dev@2.27-3ubuntu1.6
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11 > expat/libexpat1-dev@2.2.5-3ubuntu0.9 > glibc/libc6-dev@2.27-3ubuntu1.6
+  and 5 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.27-3ubuntu1.6+esm1
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIBC-5901486
+  Introduced through: glibc/libc6-dev@2.27-3ubuntu1.6, build-essential@12.4ubuntu1, python-defaults/libpython-dev@2.7.15~rc1-1, glibc/libc-bin@2.27-3ubuntu1.6, glibc/libc-dev-bin@2.27-3ubuntu1.6, glibc/libc6@2.27-3ubuntu1.6
+  From: glibc/libc6-dev@2.27-3ubuntu1.6
+  From: build-essential@12.4ubuntu1 > glibc/libc6-dev@2.27-3ubuntu1.6
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11 > expat/libexpat1-dev@2.2.5-3ubuntu0.9 > glibc/libc6-dev@2.27-3ubuntu1.6
+  and 5 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.27-3ubuntu1.6+esm1
+
+✗ Low severity vulnerability found in gcc-7
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GCC7-1192809
+  Introduced through: gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, gcc-7/gcc-7-base@7.5.0-3ubuntu1~18.04, gcc-7/libasan4@7.5.0-3ubuntu1~18.04, gcc-defaults/cpp@4:7.4.0-1ubuntu2.3, gcc-7/libgcc-7-dev@7.5.0-3ubuntu1~18.04, gcc-7/libstdc++-7-dev@7.5.0-3ubuntu1~18.04, gcc-7/g++-7@7.5.0-3ubuntu1~18.04, gcc-7/cpp-7@7.5.0-3ubuntu1~18.04, gcc-7/libcilkrts5@7.5.0-3ubuntu1~18.04, gcc-7/libubsan0@7.5.0-3ubuntu1~18.04
+  From: gcc-7@7.5.0-3ubuntu1~18.04
+  From: build-essential@12.4ubuntu1 > gcc-defaults/gcc@4:7.4.0-1ubuntu2.3 > gcc-7@7.5.0-3ubuntu1~18.04
+  From: build-essential@12.4ubuntu1 > gcc-defaults/g++@4:7.4.0-1ubuntu2.3 > gcc-7@7.5.0-3ubuntu1~18.04
+  and 26 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in dbus
+  Description: CVE-2023-34969
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-DBUS-5673215
+  Introduced through: dbus@1.12.2-1ubuntu1.4, python-secretstorage@2.3.1-2, dbus/libdbus-1-3@1.12.2-1ubuntu1.4
+  From: dbus@1.12.2-1ubuntu1.4
+  From: python-secretstorage@2.3.1-2 > dbus@1.12.2-1ubuntu1.4
+  From: dbus/libdbus-1-3@1.12.2-1ubuntu1.4
+  and 2 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in coreutils
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-COREUTILS-317469
+  Introduced through: coreutils@8.28-1ubuntu1
+  From: coreutils@8.28-1ubuntu1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-2321209
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in binutils
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-403700
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in binutils
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-561073
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in binutils
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-561418
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in binutils
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-5855069
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Low severity vulnerability found in binutils
+  Description: Missing Release of Resource after Effective Lifetime
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-842776
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Medium severity vulnerability found in tar
+  Description: CVE-2023-39804
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-TAR-6096091
+  Introduced through: tar@1.29b-2ubuntu0.4
+  From: tar@1.29b-2ubuntu0.4
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 1.29b-2ubuntu0.4+esm1
+
+✗ Medium severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-SQLITE3-6140544
+  Introduced through: sqlite3/libsqlite3-0@3.22.0-1ubuntu0.7
+  From: sqlite3/libsqlite3-0@3.22.0-1ubuntu0.7
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 3.22.0-1ubuntu0.7+esm1
+
+✗ Medium severity vulnerability found in shadow/passwd
+  Description: CVE-2024-56433
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-SHADOW-8600511
+  Introduced through: shadow/passwd@1:4.5-1ubuntu2.5, apt@1.6.17, shadow/login@1:4.5-1ubuntu2.5
+  From: shadow/passwd@1:4.5-1ubuntu2.5
+  From: apt@1.6.17 > adduser@3.116ubuntu1 > shadow/passwd@1:4.5-1ubuntu2.5
+  From: shadow/login@1:4.5-1ubuntu2.5
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Medium severity vulnerability found in python2.7/libpython2.7-dev
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PYTHON27-3325875
+  Introduced through: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11, python-defaults/libpython-all-dev@2.7.15~rc1-1, python-defaults/libpython-dev@2.7.15~rc1-1, python-defaults/python-dev@2.7.15~rc1-1, python-defaults/python@2.7.15~rc1-1, python2.7/libpython2.7@2.7.17-1~18.04ubuntu1.11, python-defaults/python-all-dev@2.7.15~rc1-1, python2.7/python2.7-dev@2.7.17-1~18.04ubuntu1.11, python2.7/libpython2.7-minimal@2.7.17-1~18.04ubuntu1.11
+  From: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-all-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  and 17 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Medium severity vulnerability found in python2.7/libpython2.7-dev
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PYTHON27-5438719
+  Introduced through: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11, python-defaults/libpython-all-dev@2.7.15~rc1-1, python-defaults/libpython-dev@2.7.15~rc1-1, python-defaults/python-dev@2.7.15~rc1-1, python-defaults/python@2.7.15~rc1-1, python2.7/libpython2.7@2.7.17-1~18.04ubuntu1.11, python-defaults/python-all-dev@2.7.15~rc1-1, python2.7/python2.7-dev@2.7.17-1~18.04ubuntu1.11, python2.7/libpython2.7-minimal@2.7.17-1~18.04ubuntu1.11
+  From: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-all-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  and 17 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.7.17-1~18.04ubuntu1.13+esm6
+
+✗ Medium severity vulnerability found in python2.7/libpython2.7-dev
+  Description: Race Condition
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PYTHON27-5854062
+  Introduced through: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11, python-defaults/libpython-all-dev@2.7.15~rc1-1, python-defaults/libpython-dev@2.7.15~rc1-1, python-defaults/python-dev@2.7.15~rc1-1, python-defaults/python@2.7.15~rc1-1, python2.7/libpython2.7@2.7.17-1~18.04ubuntu1.11, python-defaults/python-all-dev@2.7.15~rc1-1, python2.7/python2.7-dev@2.7.17-1~18.04ubuntu1.11, python2.7/libpython2.7-minimal@2.7.17-1~18.04ubuntu1.11
+  From: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-all-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  and 17 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.7.17-1~18.04ubuntu1.13+esm2
+
+✗ Medium severity vulnerability found in python2.7/libpython2.7-dev
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PYTHON27-5854704
+  Introduced through: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11, python-defaults/libpython-all-dev@2.7.15~rc1-1, python-defaults/libpython-dev@2.7.15~rc1-1, python-defaults/python-dev@2.7.15~rc1-1, python-defaults/python@2.7.15~rc1-1, python2.7/libpython2.7@2.7.17-1~18.04ubuntu1.11, python-defaults/python-all-dev@2.7.15~rc1-1, python2.7/python2.7-dev@2.7.17-1~18.04ubuntu1.11, python2.7/libpython2.7-minimal@2.7.17-1~18.04ubuntu1.11
+  From: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-all-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  and 17 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.7.17-1~18.04ubuntu1.13+esm3
+
+✗ Medium severity vulnerability found in python2.7/libpython2.7-dev
+  Description: XML External Entity (XXE) Injection
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PYTHON27-5854950
+  Introduced through: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11, python-defaults/libpython-all-dev@2.7.15~rc1-1, python-defaults/libpython-dev@2.7.15~rc1-1, python-defaults/python-dev@2.7.15~rc1-1, python-defaults/python@2.7.15~rc1-1, python2.7/libpython2.7@2.7.17-1~18.04ubuntu1.11, python-defaults/python-all-dev@2.7.15~rc1-1, python2.7/python2.7-dev@2.7.17-1~18.04ubuntu1.11, python2.7/libpython2.7-minimal@2.7.17-1~18.04ubuntu1.11
+  From: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-all-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  and 17 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.7.17-1~18.04ubuntu1.13+esm1
+
+✗ Medium severity vulnerability found in python2.7/libpython2.7-dev
+  Description: Resource Exhaustion
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PYTHON27-5855034
+  Introduced through: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11, python-defaults/libpython-all-dev@2.7.15~rc1-1, python-defaults/libpython-dev@2.7.15~rc1-1, python-defaults/python-dev@2.7.15~rc1-1, python-defaults/python@2.7.15~rc1-1, python2.7/libpython2.7@2.7.17-1~18.04ubuntu1.11, python-defaults/python-all-dev@2.7.15~rc1-1, python2.7/python2.7-dev@2.7.17-1~18.04ubuntu1.11, python2.7/libpython2.7-minimal@2.7.17-1~18.04ubuntu1.11
+  From: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-all-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  and 17 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.7.17-1~18.04ubuntu1.13+esm4
+
+✗ Medium severity vulnerability found in python2.7/libpython2.7-dev
+  Description: CVE-2023-40217
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PYTHON27-5861913
+  Introduced through: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11, python-defaults/libpython-all-dev@2.7.15~rc1-1, python-defaults/libpython-dev@2.7.15~rc1-1, python-defaults/python-dev@2.7.15~rc1-1, python-defaults/python@2.7.15~rc1-1, python2.7/libpython2.7@2.7.17-1~18.04ubuntu1.11, python-defaults/python-all-dev@2.7.15~rc1-1, python2.7/python2.7-dev@2.7.17-1~18.04ubuntu1.11, python2.7/libpython2.7-minimal@2.7.17-1~18.04ubuntu1.11
+  From: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-all-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  and 17 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.7.17-1~18.04ubuntu1.13+esm4
+
+✗ Medium severity vulnerability found in python2.7/libpython2.7-dev
+  Description: CVE-2024-6923
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PYTHON27-7577365
+  Introduced through: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11, python-defaults/libpython-all-dev@2.7.15~rc1-1, python-defaults/libpython-dev@2.7.15~rc1-1, python-defaults/python-dev@2.7.15~rc1-1, python-defaults/python@2.7.15~rc1-1, python2.7/libpython2.7@2.7.17-1~18.04ubuntu1.11, python-defaults/python-all-dev@2.7.15~rc1-1, python2.7/python2.7-dev@2.7.17-1~18.04ubuntu1.11, python2.7/libpython2.7-minimal@2.7.17-1~18.04ubuntu1.11
+  From: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-all-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  and 17 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.7.17-1~18.04ubuntu1.13+esm7
+
+✗ Medium severity vulnerability found in python2.7/libpython2.7-dev
+  Description: CVE-2024-11168
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PYTHON27-8370355
+  Introduced through: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11, python-defaults/libpython-all-dev@2.7.15~rc1-1, python-defaults/libpython-dev@2.7.15~rc1-1, python-defaults/python-dev@2.7.15~rc1-1, python-defaults/python@2.7.15~rc1-1, python2.7/libpython2.7@2.7.17-1~18.04ubuntu1.11, python-defaults/python-all-dev@2.7.15~rc1-1, python2.7/python2.7-dev@2.7.17-1~18.04ubuntu1.11, python2.7/libpython2.7-minimal@2.7.17-1~18.04ubuntu1.11
+  From: python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-all-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11
+  and 17 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Medium severity vulnerability found in python-setuptools/python-pkg-resources
+  Description: Arbitrary Code Injection
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PYTHONSETUPTOOLS-7459758
+  Introduced through: python-setuptools/python-pkg-resources@39.0.1-2ubuntu0.1, python-setuptools@39.0.1-2ubuntu0.1
+  From: python-setuptools/python-pkg-resources@39.0.1-2ubuntu0.1
+  From: python-setuptools@39.0.1-2ubuntu0.1 > python-setuptools/python-pkg-resources@39.0.1-2ubuntu0.1
+  From: python-setuptools@39.0.1-2ubuntu0.1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 39.0.1-2ubuntu0.1+esm1
+
+✗ Medium severity vulnerability found in python-idna
+  Description: CVE-2024-3651
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PYTHONIDNA-6672269
+  Introduced through: python-idna@2.6-1, python-secretstorage@2.3.1-2
+  From: python-idna@2.6-1
+  From: python-secretstorage@2.3.1-2 > python-cryptography@2.1.4-1ubuntu1.4 > python-idna@2.6-1
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.6-1ubuntu0.1~esm1
+
+✗ Medium severity vulnerability found in python-cryptography
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PYTHONCRYPTOGRAPHY-6126751
+  Introduced through: python-cryptography@2.1.4-1ubuntu1.4, python-secretstorage@2.3.1-2
+  From: python-cryptography@2.1.4-1ubuntu1.4
+  From: python-secretstorage@2.3.1-2 > python-cryptography@2.1.4-1ubuntu1.4
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.1.4-1ubuntu1.4+esm1
+
+✗ Medium severity vulnerability found in pam/libpam-modules
+  Description: CVE-2024-22365
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PAM-6170210
+  Introduced through: pam/libpam-modules@1.1.8-3.6ubuntu2.18.04.6, shadow/passwd@1:4.5-1ubuntu2.5, shadow/login@1:4.5-1ubuntu2.5, pam/libpam-runtime@1.1.8-3.6ubuntu2.18.04.6, pam/libpam-modules-bin@1.1.8-3.6ubuntu2.18.04.6, pam/libpam0g@1.1.8-3.6ubuntu2.18.04.6, util-linux/mount@2.31.1-0.4ubuntu3.7
+  From: pam/libpam-modules@1.1.8-3.6ubuntu2.18.04.6
+  From: shadow/passwd@1:4.5-1ubuntu2.5 > pam/libpam-modules@1.1.8-3.6ubuntu2.18.04.6
+  From: shadow/login@1:4.5-1ubuntu2.5 > pam/libpam-modules@1.1.8-3.6ubuntu2.18.04.6
+  and 11 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 1.1.8-3.6ubuntu2.18.04.6+esm1
+
+✗ Medium severity vulnerability found in pam/libpam-modules
+  Description: Insecure Storage of Sensitive Information
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PAM-8303375
+  Introduced through: pam/libpam-modules@1.1.8-3.6ubuntu2.18.04.6, shadow/passwd@1:4.5-1ubuntu2.5, shadow/login@1:4.5-1ubuntu2.5, pam/libpam-runtime@1.1.8-3.6ubuntu2.18.04.6, pam/libpam-modules-bin@1.1.8-3.6ubuntu2.18.04.6, pam/libpam0g@1.1.8-3.6ubuntu2.18.04.6, util-linux/mount@2.31.1-0.4ubuntu3.7
+  From: pam/libpam-modules@1.1.8-3.6ubuntu2.18.04.6
+  From: shadow/passwd@1:4.5-1ubuntu2.5 > pam/libpam-modules@1.1.8-3.6ubuntu2.18.04.6
+  From: shadow/login@1:4.5-1ubuntu2.5 > pam/libpam-modules@1.1.8-3.6ubuntu2.18.04.6
+  and 11 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Medium severity vulnerability found in pam/libpam-modules
+  Description: Improper Authentication
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-PAM-8352846
+  Introduced through: pam/libpam-modules@1.1.8-3.6ubuntu2.18.04.6, shadow/passwd@1:4.5-1ubuntu2.5, shadow/login@1:4.5-1ubuntu2.5, pam/libpam-runtime@1.1.8-3.6ubuntu2.18.04.6, pam/libpam-modules-bin@1.1.8-3.6ubuntu2.18.04.6, pam/libpam0g@1.1.8-3.6ubuntu2.18.04.6, util-linux/mount@2.31.1-0.4ubuntu3.7
+  From: pam/libpam-modules@1.1.8-3.6ubuntu2.18.04.6
+  From: shadow/passwd@1:4.5-1ubuntu2.5 > pam/libpam-modules@1.1.8-3.6ubuntu2.18.04.6
+  From: shadow/login@1:4.5-1ubuntu2.5 > pam/libpam-modules@1.1.8-3.6ubuntu2.18.04.6
+  and 11 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Medium severity vulnerability found in ncurses/libncurses5
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-NCURSES-5854175
+  Introduced through: ncurses/libncurses5@6.1-1ubuntu1.18.04.1, procps@2:3.3.12-3ubuntu1.2, ncurses/libncursesw5@6.1-1ubuntu1.18.04.1, ncurses/libtinfo5@6.1-1ubuntu1.18.04.1, ncurses/ncurses-base@6.1-1ubuntu1.18.04.1, ncurses/ncurses-bin@6.1-1ubuntu1.18.04.1
+  From: ncurses/libncurses5@6.1-1ubuntu1.18.04.1
+  From: procps@2:3.3.12-3ubuntu1.2 > ncurses/libncurses5@6.1-1ubuntu1.18.04.1
+  From: ncurses/libncursesw5@6.1-1ubuntu1.18.04.1
+  and 3 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 6.1-1ubuntu1.18.04.1+esm1
+
+✗ Medium severity vulnerability found in libxml2
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-LIBXML2-6241190
+  Introduced through: libxml2@2.9.4+dfsg1-6.1ubuntu1.9, shared-mime-info@1.9-2
+  From: libxml2@2.9.4+dfsg1-6.1ubuntu1.9
+  From: shared-mime-info@1.9-2 > libxml2@2.9.4+dfsg1-6.1ubuntu1.9
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.9.4+dfsg1-6.1ubuntu1.9+esm1
+
+✗ Medium severity vulnerability found in gnutls28/libgnutls30
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GNUTLS28-6069046
+  Introduced through: gnutls28/libgnutls30@3.5.18-1ubuntu1.6, apt@1.6.17, gnupg2/gnupg@2.2.4-1ubuntu1.6
+  From: gnutls28/libgnutls30@3.5.18-1ubuntu1.6
+  From: apt@1.6.17 > gnutls28/libgnutls30@3.5.18-1ubuntu1.6
+  From: gnupg2/gnupg@2.2.4-1ubuntu1.6 > gnupg2/dirmngr@2.2.4-1ubuntu1.6 > gnutls28/libgnutls30@3.5.18-1ubuntu1.6
+  and 1 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 3.5.18-1ubuntu1.6+esm1
+
+✗ Medium severity vulnerability found in glibc/libc6-dev
+  Description: CVE-2024-2961
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIBC-6663166
+  Introduced through: glibc/libc6-dev@2.27-3ubuntu1.6, build-essential@12.4ubuntu1, python-defaults/libpython-dev@2.7.15~rc1-1, glibc/libc-bin@2.27-3ubuntu1.6, glibc/libc-dev-bin@2.27-3ubuntu1.6, glibc/libc6@2.27-3ubuntu1.6
+  From: glibc/libc6-dev@2.27-3ubuntu1.6
+  From: build-essential@12.4ubuntu1 > glibc/libc6-dev@2.27-3ubuntu1.6
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11 > expat/libexpat1-dev@2.2.5-3ubuntu0.9 > glibc/libc6-dev@2.27-3ubuntu1.6
+  and 5 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.27-3ubuntu1.6+esm2
+
+✗ Medium severity vulnerability found in glibc/libc6-dev
+  Description: CVE-2024-33600
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIBC-6674192
+  Introduced through: glibc/libc6-dev@2.27-3ubuntu1.6, build-essential@12.4ubuntu1, python-defaults/libpython-dev@2.7.15~rc1-1, glibc/libc-bin@2.27-3ubuntu1.6, glibc/libc-dev-bin@2.27-3ubuntu1.6, glibc/libc6@2.27-3ubuntu1.6
+  From: glibc/libc6-dev@2.27-3ubuntu1.6
+  From: build-essential@12.4ubuntu1 > glibc/libc6-dev@2.27-3ubuntu1.6
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11 > expat/libexpat1-dev@2.2.5-3ubuntu0.9 > glibc/libc6-dev@2.27-3ubuntu1.6
+  and 5 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.27-3ubuntu1.6+esm3
+
+✗ Medium severity vulnerability found in glibc/libc6-dev
+  Description: CVE-2024-33599
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIBC-6674207
+  Introduced through: glibc/libc6-dev@2.27-3ubuntu1.6, build-essential@12.4ubuntu1, python-defaults/libpython-dev@2.7.15~rc1-1, glibc/libc-bin@2.27-3ubuntu1.6, glibc/libc-dev-bin@2.27-3ubuntu1.6, glibc/libc6@2.27-3ubuntu1.6
+  From: glibc/libc6-dev@2.27-3ubuntu1.6
+  From: build-essential@12.4ubuntu1 > glibc/libc6-dev@2.27-3ubuntu1.6
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11 > expat/libexpat1-dev@2.2.5-3ubuntu0.9 > glibc/libc6-dev@2.27-3ubuntu1.6
+  and 5 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.27-3ubuntu1.6+esm3
+
+✗ Medium severity vulnerability found in glibc/libc6-dev
+  Description: CVE-2024-33601
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIBC-6674216
+  Introduced through: glibc/libc6-dev@2.27-3ubuntu1.6, build-essential@12.4ubuntu1, python-defaults/libpython-dev@2.7.15~rc1-1, glibc/libc-bin@2.27-3ubuntu1.6, glibc/libc-dev-bin@2.27-3ubuntu1.6, glibc/libc6@2.27-3ubuntu1.6
+  From: glibc/libc6-dev@2.27-3ubuntu1.6
+  From: build-essential@12.4ubuntu1 > glibc/libc6-dev@2.27-3ubuntu1.6
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11 > expat/libexpat1-dev@2.2.5-3ubuntu0.9 > glibc/libc6-dev@2.27-3ubuntu1.6
+  and 5 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.27-3ubuntu1.6+esm3
+
+✗ Medium severity vulnerability found in glibc/libc6-dev
+  Description: CVE-2024-33602
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIBC-6674225
+  Introduced through: glibc/libc6-dev@2.27-3ubuntu1.6, build-essential@12.4ubuntu1, python-defaults/libpython-dev@2.7.15~rc1-1, glibc/libc-bin@2.27-3ubuntu1.6, glibc/libc-dev-bin@2.27-3ubuntu1.6, glibc/libc6@2.27-3ubuntu1.6
+  From: glibc/libc6-dev@2.27-3ubuntu1.6
+  From: build-essential@12.4ubuntu1 > glibc/libc6-dev@2.27-3ubuntu1.6
+  From: python-defaults/libpython-dev@2.7.15~rc1-1 > python2.7/libpython2.7-dev@2.7.17-1~18.04ubuntu1.11 > expat/libexpat1-dev@2.2.5-3ubuntu0.9 > glibc/libc6-dev@2.27-3ubuntu1.6
+  and 5 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.27-3ubuntu1.6+esm3
+
+✗ Medium severity vulnerability found in glib2.0/libglib2.0-0
+  Description: Resource Exhaustion
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIB20-5670511
+  Introduced through: glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9, gobject-introspection/libgirepository-1.0-1@1.56.1-1, pygobject/python-gi@3.26.1-2ubuntu1, shared-mime-info@1.9-2, python-secretstorage@2.3.1-2, glib2.0/libglib2.0-data@2.56.4-0ubuntu0.18.04.9
+  From: glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  From: gobject-introspection/libgirepository-1.0-1@1.56.1-1 > glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  From: pygobject/python-gi@3.26.1-2ubuntu1 > glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  and 4 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.56.4-0ubuntu0.18.04.9+esm3
+
+✗ Medium severity vulnerability found in glib2.0/libglib2.0-0
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIB20-5670791
+  Introduced through: glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9, gobject-introspection/libgirepository-1.0-1@1.56.1-1, pygobject/python-gi@3.26.1-2ubuntu1, shared-mime-info@1.9-2, python-secretstorage@2.3.1-2, glib2.0/libglib2.0-data@2.56.4-0ubuntu0.18.04.9
+  From: glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  From: gobject-introspection/libgirepository-1.0-1@1.56.1-1 > glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  From: pygobject/python-gi@3.26.1-2ubuntu1 > glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  and 4 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.56.4-0ubuntu0.18.04.9+esm3
+
+✗ Medium severity vulnerability found in glib2.0/libglib2.0-0
+  Description: Resource Exhaustion
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIB20-5670805
+  Introduced through: glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9, gobject-introspection/libgirepository-1.0-1@1.56.1-1, pygobject/python-gi@3.26.1-2ubuntu1, shared-mime-info@1.9-2, python-secretstorage@2.3.1-2, glib2.0/libglib2.0-data@2.56.4-0ubuntu0.18.04.9
+  From: glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  From: gobject-introspection/libgirepository-1.0-1@1.56.1-1 > glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  From: pygobject/python-gi@3.26.1-2ubuntu1 > glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  and 4 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.56.4-0ubuntu0.18.04.9+esm3
+
+✗ Medium severity vulnerability found in glib2.0/libglib2.0-0
+  Description: Deserialization of Untrusted Data
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIB20-5670833
+  Introduced through: glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9, gobject-introspection/libgirepository-1.0-1@1.56.1-1, pygobject/python-gi@3.26.1-2ubuntu1, shared-mime-info@1.9-2, python-secretstorage@2.3.1-2, glib2.0/libglib2.0-data@2.56.4-0ubuntu0.18.04.9
+  From: glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  From: gobject-introspection/libgirepository-1.0-1@1.56.1-1 > glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  From: pygobject/python-gi@3.26.1-2ubuntu1 > glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  and 4 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.56.4-0ubuntu0.18.04.9+esm3
+
+✗ Medium severity vulnerability found in glib2.0/libglib2.0-0
+  Description: Deserialization of Untrusted Data
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIB20-5670840
+  Introduced through: glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9, gobject-introspection/libgirepository-1.0-1@1.56.1-1, pygobject/python-gi@3.26.1-2ubuntu1, shared-mime-info@1.9-2, python-secretstorage@2.3.1-2, glib2.0/libglib2.0-data@2.56.4-0ubuntu0.18.04.9
+  From: glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  From: gobject-introspection/libgirepository-1.0-1@1.56.1-1 > glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  From: pygobject/python-gi@3.26.1-2ubuntu1 > glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  and 4 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.56.4-0ubuntu0.18.04.9+esm3
+
+✗ Medium severity vulnerability found in glib2.0/libglib2.0-0
+  Description: CVE-2024-52533
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GLIB20-8366764
+  Introduced through: glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9, gobject-introspection/libgirepository-1.0-1@1.56.1-1, pygobject/python-gi@3.26.1-2ubuntu1, shared-mime-info@1.9-2, python-secretstorage@2.3.1-2, glib2.0/libglib2.0-data@2.56.4-0ubuntu0.18.04.9
+  From: glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  From: gobject-introspection/libgirepository-1.0-1@1.56.1-1 > glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  From: pygobject/python-gi@3.26.1-2ubuntu1 > glib2.0/libglib2.0-0@2.56.4-0ubuntu0.18.04.9
+  and 4 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.56.4-0ubuntu0.18.04.9+esm4
+
+✗ Medium severity vulnerability found in gcc-8/libstdc++6
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GCC8-572149
+  Introduced through: gcc-8/libstdc++6@8.4.0-1ubuntu1~18.04, apt/libapt-pkg5.0@1.6.17, apt@1.6.17, gcc-7@7.5.0-3ubuntu1~18.04, gcc-8/libcc1-0@8.4.0-1ubuntu1~18.04, icu/libicu60@60.2-3ubuntu3.2, build-essential@12.4ubuntu1, gcc-8/libatomic1@8.4.0-1ubuntu1~18.04, gcc-8/libgomp1@8.4.0-1ubuntu1~18.04, gcc-8/libitm1@8.4.0-1ubuntu1~18.04, gcc-8/liblsan0@8.4.0-1ubuntu1~18.04, gcc-8/libmpx2@8.4.0-1ubuntu1~18.04, gcc-8/libquadmath0@8.4.0-1ubuntu1~18.04, gcc-8/libtsan0@8.4.0-1ubuntu1~18.04, gcc-8/gcc-8-base@8.4.0-1ubuntu1~18.04, gcc-8/libgcc1@1:8.4.0-1ubuntu1~18.04
+  From: gcc-8/libstdc++6@8.4.0-1ubuntu1~18.04
+  From: apt/libapt-pkg5.0@1.6.17 > gcc-8/libstdc++6@8.4.0-1ubuntu1~18.04
+  From: apt@1.6.17 > gcc-8/libstdc++6@8.4.0-1ubuntu1~18.04
+  and 24 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Medium severity vulnerability found in gcc-7
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-GCC7-572147
+  Introduced through: gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, gcc-7/gcc-7-base@7.5.0-3ubuntu1~18.04, gcc-7/libasan4@7.5.0-3ubuntu1~18.04, gcc-defaults/cpp@4:7.4.0-1ubuntu2.3, gcc-7/libgcc-7-dev@7.5.0-3ubuntu1~18.04, gcc-7/libstdc++-7-dev@7.5.0-3ubuntu1~18.04, gcc-7/g++-7@7.5.0-3ubuntu1~18.04, gcc-7/cpp-7@7.5.0-3ubuntu1~18.04, gcc-7/libcilkrts5@7.5.0-3ubuntu1~18.04, gcc-7/libubsan0@7.5.0-3ubuntu1~18.04
+  From: gcc-7@7.5.0-3ubuntu1~18.04
+  From: build-essential@12.4ubuntu1 > gcc-defaults/gcc@4:7.4.0-1ubuntu2.3 > gcc-7@7.5.0-3ubuntu1~18.04
+  From: build-essential@12.4ubuntu1 > gcc-defaults/g++@4:7.4.0-1ubuntu2.3 > gcc-7@7.5.0-3ubuntu1~18.04
+  and 26 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+✗ Medium severity vulnerability found in expat/libexpat1
+  Description: Integer Overflow or Wraparound
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-EXPAT-7885417
+  Introduced through: expat/libexpat1@2.2.5-3ubuntu0.9, expat/libexpat1-dev@2.2.5-3ubuntu0.9, python-defaults/python-dev@2.7.15~rc1-1, python-defaults/libpython-dev@2.7.15~rc1-1
+  From: expat/libexpat1@2.2.5-3ubuntu0.9
+  From: expat/libexpat1-dev@2.2.5-3ubuntu0.9
+  From: python-defaults/python-dev@2.7.15~rc1-1 > python2.7/python2.7-dev@2.7.17-1~18.04ubuntu1.11 > expat/libexpat1-dev@2.2.5-3ubuntu0.9
+  and 1 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.2.5-3ubuntu0.9+esm1
+
+✗ Medium severity vulnerability found in expat/libexpat1
+  Description: XML External Entity (XXE) Injection
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-EXPAT-7885531
+  Introduced through: expat/libexpat1@2.2.5-3ubuntu0.9, expat/libexpat1-dev@2.2.5-3ubuntu0.9, python-defaults/python-dev@2.7.15~rc1-1, python-defaults/libpython-dev@2.7.15~rc1-1
+  From: expat/libexpat1@2.2.5-3ubuntu0.9
+  From: expat/libexpat1-dev@2.2.5-3ubuntu0.9
+  From: python-defaults/python-dev@2.7.15~rc1-1 > python2.7/python2.7-dev@2.7.17-1~18.04ubuntu1.11 > expat/libexpat1-dev@2.2.5-3ubuntu0.9
+  and 1 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.2.5-3ubuntu0.9+esm1
+
+✗ Medium severity vulnerability found in expat/libexpat1
+  Description: Integer Overflow or Wraparound
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-EXPAT-7885620
+  Introduced through: expat/libexpat1@2.2.5-3ubuntu0.9, expat/libexpat1-dev@2.2.5-3ubuntu0.9, python-defaults/python-dev@2.7.15~rc1-1, python-defaults/libpython-dev@2.7.15~rc1-1
+  From: expat/libexpat1@2.2.5-3ubuntu0.9
+  From: expat/libexpat1-dev@2.2.5-3ubuntu0.9
+  From: python-defaults/python-dev@2.7.15~rc1-1 > python2.7/python2.7-dev@2.7.17-1~18.04ubuntu1.11 > expat/libexpat1-dev@2.2.5-3ubuntu0.9
+  and 1 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.2.5-3ubuntu0.9+esm1
+
+✗ Medium severity vulnerability found in binutils
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-5853809
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.30-21ubuntu1~18.04.9+esm3
+
+✗ Medium severity vulnerability found in binutils
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-5853896
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.30-21ubuntu1~18.04.9+esm3
+
+✗ Medium severity vulnerability found in binutils
+  Description: Improper Initialization
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-5853923
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.30-21ubuntu1~18.04.9+esm1
+
+✗ Medium severity vulnerability found in binutils
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-5853953
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.30-21ubuntu1~18.04.9+esm1
+
+✗ Medium severity vulnerability found in binutils
+  Description: CVE-2020-19726
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-5853959
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.30-21ubuntu1~18.04.9+esm1
+
+✗ Medium severity vulnerability found in binutils
+  Description: Resource Exhaustion
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-5854025
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.30-21ubuntu1~18.04.9+esm3
+
+✗ Medium severity vulnerability found in binutils
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-5854127
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.30-21ubuntu1~18.04.9+esm1
+
+✗ Medium severity vulnerability found in binutils
+  Description: Reachable Assertion
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-5854229
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.30-21ubuntu1~18.04.9+esm3
+
+✗ Medium severity vulnerability found in binutils
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-5854253
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.30-21ubuntu1~18.04.9+esm3
+
+✗ Medium severity vulnerability found in binutils
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-5854283
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.30-21ubuntu1~18.04.9+esm3
+
+✗ Medium severity vulnerability found in binutils
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-5854343
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.30-21ubuntu1~18.04.9+esm1
+
+✗ Medium severity vulnerability found in binutils
+  Description: CVE-2022-47695
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-5854404
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.30-21ubuntu1~18.04.9+esm1
+
+✗ Medium severity vulnerability found in binutils
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-5854781
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.30-21ubuntu1~18.04.9+esm1
+
+✗ Medium severity vulnerability found in binutils
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-BINUTILS-5854787
+  Introduced through: binutils@2.30-21ubuntu1~18.04.9, gcc-7@7.5.0-3ubuntu1~18.04, build-essential@12.4ubuntu1, binutils/binutils-common@2.30-21ubuntu1~18.04.9, binutils/binutils-x86-64-linux-gnu@2.30-21ubuntu1~18.04.9, binutils/libbinutils@2.30-21ubuntu1~18.04.9
+  From: binutils@2.30-21ubuntu1~18.04.9
+  From: gcc-7@7.5.0-3ubuntu1~18.04 > binutils@2.30-21ubuntu1~18.04.9
+  From: build-essential@12.4ubuntu1 > dpkg/dpkg-dev@1.19.0.5ubuntu2.4 > binutils@2.30-21ubuntu1~18.04.9
+  and 9 more...
+  Image layer: Introduced by your base image (ubuntu:18.04)
+  Fixed in: 2.30-21ubuntu1~18.04.9+esm1
+
+✗ Medium severity vulnerability found in apparmor/libapparmor1
+  Description: Security Features
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU1804-APPARMOR-277330
+  Introduced through: apparmor/libapparmor1@2.12-4ubuntu5.3, python-secretstorage@2.3.1-2
+  From: apparmor/libapparmor1@2.12-4ubuntu5.3
+  From: python-secretstorage@2.3.1-2 > dbus@1.12.2-1ubuntu1.4 > apparmor/libapparmor1@2.12-4ubuntu5.3
+  Image layer: Introduced by your base image (ubuntu:18.04)
+
+
+
+Organization:      coulibalytech
+Package manager:   deb
+Project name:      docker-image|simple-webapp-docker
+Docker image:      simple-webapp-docker
+Platform:          linux/amd64
+Base image:        ubuntu:18.04
+Licenses:          enabled
+
+Tested 225 dependencies for known issues, found 87 issues.
+
+Base Image    Vulnerabilities  Severity
+ubuntu:18.04  29               0 critical, 0 high, 12 medium, 17 low
+
+Recommendations for base image upgrade:
+
+Major upgrades
+Base Image    Vulnerabilities  Severity
+ubuntu:24.10  7                0 critical, 0 high, 2 medium, 5 low
+
+
+-------------------------------------------------------
+
+Testing simple-webapp-docker...
+
+Tested 6 dependencies for known issues, found 11 issues.
+
+
+Issues to fix by upgrading dependencies:
+
+  Upgrade flask@1.1.4 to flask@2.2.5 to fix
+  ✗ Information Exposure [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-FLASK-5490129] in flask@1.1.4
+    introduced by flask@1.1.4
+
+  Pin jinja2@2.11.3 to jinja2@3.1.5 to fix
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-JINJA2-6150717] in jinja2@2.11.3
+    introduced by flask@1.1.4 > jinja2@2.11.3
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-JINJA2-6809379] in jinja2@2.11.3
+    introduced by flask@1.1.4 > jinja2@2.11.3
+  ✗ Template Injection (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-JINJA2-8548181] in jinja2@2.11.3
+    introduced by flask@1.1.4 > jinja2@2.11.3
+  ✗ Improper Neutralization (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-JINJA2-8548987] in jinja2@2.11.3
+    introduced by flask@1.1.4 > jinja2@2.11.3
+
+  Pin werkzeug@1.0.1 to werkzeug@3.0.6 to fix
+  ✗ Access Restriction Bypass [Low Severity][https://security.snyk.io/vuln/SNYK-PYTHON-WERKZEUG-3319935] in werkzeug@1.0.1
+    introduced by flask@1.1.4 > werkzeug@1.0.1
+  ✗ Inefficient Algorithmic Complexity [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-WERKZEUG-6035177] in werkzeug@1.0.1
+    introduced by flask@1.1.4 > werkzeug@1.0.1
+  ✗ Directory Traversal [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-WERKZEUG-8309091] in werkzeug@1.0.1
+    introduced by flask@1.1.4 > werkzeug@1.0.1
+  ✗ Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-PYTHON-WERKZEUG-8309092] in werkzeug@1.0.1
+    introduced by flask@1.1.4 > werkzeug@1.0.1
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-WERKZEUG-3319936] in werkzeug@1.0.1
+    introduced by flask@1.1.4 > werkzeug@1.0.1
+  ✗ Remote Code Execution (RCE) [High Severity][https://security.snyk.io/vuln/SNYK-PYTHON-WERKZEUG-6808933] in werkzeug@1.0.1
+    introduced by flask@1.1.4 > werkzeug@1.0.1
+
+
+
+Organization:      coulibalytech
+Package manager:   pip
+Target file:       /opt/requirements.txt
+Project name:      /opt/requirements.txt
+Docker image:      simple-webapp-docker
+Licenses:          enabled
+
+
+Tested 2 projects, 2 contained vulnerable paths.
+
